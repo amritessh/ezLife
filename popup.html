@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Blocker</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; min-width: 200px; }
+    input[type="text"] { width: 100%; padding: 5px; margin-bottom: 10px; box-sizing: border-box; }
+    button { width: 100%; padding: 8px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #45a049; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 5px; padding: 5px; background-color: #f1f1f1; border-radius: 3px; display: flex; justify-content: space-between; align-items: center; }
+    .remove { color: red; cursor: pointer; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2>Block URL</h2>
+  <input type="text" id="urlToBlock" placeholder="Enter URL to block">
+  <button id="blockButton">Add to Block List</button>
+  <h3>Blocked URLs:</h3>
+  <ul id="blockedUrlsList">
+    </ul>
+  <script src="popup.js"></script>
+</body>
+</html>
