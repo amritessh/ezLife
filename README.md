@@ -15,7 +15,7 @@ Please install it by loading the unpacked source code in Developer Mode.
 1.  **Download the Code:**
     * Clone this repository to your local machine using Git:
       ```bash
-      git clone (https://github.com/amritessh/ezLife.git)
+      git clone https://github.com/amritessh/ezLife.git
       ```
     * Or, download the zip file of the repository by clicking the "Code" button on the repository page and selecting "Download ZIP". Extract the zip file.
 
